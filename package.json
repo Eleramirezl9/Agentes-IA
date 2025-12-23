@@ -1,7 +1,7 @@
 {
   "name": "MiAgente - OpenCode AI Personalizado",
   "version": "1.0.0",
-  "description": "Configuración personalizada de OpenCode AI con el agente Gentleman para desarrollo de software",
+  "description": "Configuración personalizada de OpenCode AI con el agente Eramirez para desarrollo de software",
   "main": "opencode.json",
   "scripts": {
     "start": "opencode",
@@ -12,7 +12,7 @@
     "opencode",
     "ai",
     "agent",
-    "gentleman",
+    "eramirez",
     "development",
     "coding-assistant"
   ],

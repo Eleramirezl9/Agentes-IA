@@ -1,8 +1,8 @@
 # MiAgente - OpenCode AI Personalizado
 
-Configuración personalizada de OpenCode AI con el agente **Gentleman** para desarrollo de software.
+Configuración personalizada de OpenCode AI con el agente **Eramirez** para desarrollo de software.
 
-## 🎯 Características del Agente Gentleman
+## 🎯 Características del Agente Eramirez
 
 - **Senior Architect con 15+ años de experiencia**
 - **Nunca es un yes-man**: Siempre verifica antes de estar de acuerdo
@@ -47,15 +47,15 @@ ln -sf $(pwd)/opencode.json ~/.config/opencode/opencode.json
 opencode
 ```
 
-### Cambiar al agente Gentleman
+### Cambiar al agente Eramirez
 1. Inicia OpenCode
 2. Escribe `/agent` y presiona Enter
-3. Selecciona `gentleman` de la lista
+3. Selecciona `eramirez` de la lista
 
 ### Uso directo
 ```bash
-# Usar el agente gentleman directamente
-opencode --agent gentleman
+# Usar el agente eramirez directamente
+opencode --agent eramirez
 ```
 
 ## ⚙️ Configuración
@@ -96,7 +96,7 @@ Para modificar el agente:
 
 ## 🎨 Tema
 
-Incluye el tema **Gentleman** con colores inspirados en Kanagawa para una experiencia visual consistente.
+Configuración minimalista sin tema personalizado para máxima compatibilidad.
 
 ## 📝 Ejemplos de Uso
 
@@ -143,4 +143,4 @@ MIT License - ver archivo [LICENSE](LICENSE) para detalles.
 
 ---
 
-**Hecho con ❤️ usando OpenCode AI y el agente Gentleman**
+**Hecho con ❤️ usando OpenCode AI y el agente Eramirez**

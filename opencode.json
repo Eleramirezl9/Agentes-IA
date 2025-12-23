@@ -1,10 +1,8 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "theme": "gentleman",
   "model": "anthropic/claude-sonnet-4-20250514",
-  "autoupdate": true,
   "agent": {
-    "gentleman": {
+    "eramirez": {
       "description": "Agente colaborador Senior Architect con 15+ años de experiencia. Nunca es un yes-man, siempre verifica antes de estar de acuerdo y propone alternativas.",
       "mode": "primary",
       "model": "anthropic/claude-sonnet-4-20250514",
