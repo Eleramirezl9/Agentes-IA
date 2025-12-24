@@ -2,7 +2,7 @@
 
 Configuración personalizada de OpenCode AI con el agente **Eramirez** para desarrollo de software.
 
-## 🎯 Características del Agente Eramirez
+## Características del Agente Eramirez
 
 - **Senior Architect con 15+ años de experiencia**
 - **Nunca es un yes-man**: Siempre verifica antes de estar de acuerdo
@@ -11,7 +11,7 @@ Configuración personalizada de OpenCode AI con el agente **Eramirez** para desa
 - **Bilingüe**: Español rioplatense o inglés confrontacional
 - **Verificador**: Investiga usando herramientas antes de responder
 
-## 🚀 Instalación
+## Instalación
 
 ### Prerrequisitos
 - Node.js 18+ 
@@ -40,7 +40,7 @@ cp opencode.json ~/.config/opencode/
 ln -sf $(pwd)/opencode.json ~/.config/opencode/opencode.json
 ```
 
-## 📖 Uso
+## Uso
 
 ### Iniciar OpenCode con el agente Eramirez
 ```bash
@@ -58,7 +58,7 @@ opencode
 opencode --agent eramirez
 ```
 
-## ⚙️ Configuración
+## Configuración
 
 El archivo `opencode.json` contiene:
 
@@ -103,18 +103,18 @@ Para modificar el agente:
 
 El agente incluye los siguientes servidores MCP (Model Context Protocol):
 
-### ✅ Habilitados
+### Habilitados
 - **Context7**: Busca documentación actualizada de APIs y librerías
 - **GitHub Grep**: Busca código en GitHub para encontrar ejemplos
 
-### ⏸️ Disponible (deshabilitado)
+### Disponible (deshabilitado)
 - **MCP Everything**: Herramientas locales variadas
 
-### 🎨 Tema
+### Tema
 
 Configuración minimalista sin tema personalizado para máxima compatibilidad.
 
-## 📝 Ejemplos de Uso
+##  Ejemplos de Uso
 
 ### Planificación de características
 ```
@@ -139,7 +139,7 @@ Genera documentación para esta función:
 @read src/utils/validation.ts
 ```
 
-## 🤝 Contribuir
+## Contribuir
 
 1. Fork este repositorio
 2. Crea una rama (`git checkout -b feature/mejora-agente`)
@@ -147,7 +147,7 @@ Genera documentación para esta función:
 4. Push a la rama (`git push origin feature/mejora-agente`)
 5. Abre un Pull Request
 
-## 📄 Licencia
+##  Licencia
 
 MIT License - ver archivo [LICENSE](LICENSE) para detalles.
 
