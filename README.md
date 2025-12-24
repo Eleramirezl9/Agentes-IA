@@ -42,7 +42,7 @@ ln -sf $(pwd)/opencode.json ~/.config/opencode/opencode.json
 
 ## 📖 Uso
 
-### Iniciar OpenCode con el agente Gentleman
+### Iniciar OpenCode con el agente Eramirez
 ```bash
 opencode
 ```
@@ -80,6 +80,7 @@ Para modificar el agente:
 
 ## 🛠️ Herramientas Disponibles
 
+### Herramientas Nativas
 - **write**: Crear archivos
 - **edit**: Editar archivos existentes
 - **read**: Leer archivos
@@ -94,7 +95,22 @@ Para modificar el agente:
 - **todowrite/todoread**: Gestión de tareas
 - **skill**: Cargar habilidades especializadas
 
-## 🎨 Tema
+### Herramientas MCP (Context Protocol)
+- **context7**: Buscar documentación actualizada de APIs
+- **gh_grep**: Buscar código en GitHub y encontrar ejemplos
+
+## 🔧 Servidores MCP Configurados
+
+El agente incluye los siguientes servidores MCP (Model Context Protocol):
+
+### ✅ Habilitados
+- **Context7**: Busca documentación actualizada de APIs y librerías
+- **GitHub Grep**: Busca código en GitHub para encontrar ejemplos
+
+### ⏸️ Disponible (deshabilitado)
+- **MCP Everything**: Herramientas locales variadas
+
+### 🎨 Tema
 
 Configuración minimalista sin tema personalizado para máxima compatibilidad.
 
