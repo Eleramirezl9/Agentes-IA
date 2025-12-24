@@ -40,6 +40,26 @@ cp opencode.json ~/.config/opencode/
 ln -sf $(pwd)/opencode.json ~/.config/opencode/opencode.json
 ```
 
+### Configurar API Keys
+Para usar las herramientas MCP, necesitas configurar las API keys correspondientes:
+
+#### Context7 MCP Server
+1. Ve a [https://context7.com/dashboard](https://context7.com/dashboard)
+2. Crea una cuenta gratuita
+3. Copia tu API key
+4. Edita `~/.config/opencode/opencode.json` y agrega la key en el objeto `context7`:
+   ```json
+   "context7": {
+     "type": "remote",
+     "url": "https://mcp.context7.com/mcp",
+     "apiKey": "tu_api_key_aqui",
+     "enabled": true
+   }
+   ```
+5. Reinicia OpenCode
+
+**Nota de seguridad**: El archivo `opencode.json` está incluido en `.gitignore` para evitar commitear keys sensibles. Mantén tus keys locales y nunca las subas al repositorio.
+
 ## Uso
 
 ### Iniciar OpenCode con el agente Eramirez

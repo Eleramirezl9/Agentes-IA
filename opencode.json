@@ -5,6 +5,7 @@
     "context7": {
       "type": "remote",
       "url": "https://mcp.context7.com/mcp",
+      "apiKey": "ctx7sk-9f6f4bc9-0353-408b-9d5e-716ba0bb8f33",
       "enabled": true
     },
     "gh_grep": {
